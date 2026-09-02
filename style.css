@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 5rem;
+    /* outline: 2px solid black; */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin-bottom: 1rem;
+}
+
+.block {
+    display: block;
+    flex-direction: column;
+}
+
+.gray {
+    background-color: gray;
+}
+.aqua {
+    background-color: aqua;
+}
+.black {
+    background-color: black;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    width: 33.3%;
+    aspect-ratio: 2/1;
+}
+
+.card>* {
+    margin: 5%;
+}
+
+form >input {
+    outline: 2px solid gray;
+}
+
+form >button {
+    border: none;
+    background-color: rgb(255, 88, 88);
+}
